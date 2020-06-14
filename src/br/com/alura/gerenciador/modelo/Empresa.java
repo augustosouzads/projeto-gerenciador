@@ -30,5 +30,6 @@ public class Empresa {
 	}
 	public void setDataAbertura(Date dataAbertura) {
 		this.dataAbertura = dataAbertura;		
+		
 	}
 }
