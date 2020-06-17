@@ -3,6 +3,9 @@
 <html>
 	<body>
 	
+		<c:import url="logout-parcial.jsp" /> <%//chamando a jsp"logout-parcial"para aparecer (sair)na tela %>
+	
+	
 		<c:if test="${not empty empresa}">
 			Empresa ${ empresa } cadastrada com sucesso!
 		</c:if>

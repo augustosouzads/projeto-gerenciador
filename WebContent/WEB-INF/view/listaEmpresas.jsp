@@ -11,6 +11,13 @@
 <title>Java Standard Taglib</title>
 </head>
 <body>
+	<c:import url="logout-parcial.jsp" /> <%//chamando a jsp"logout-parcial"para aparecer (sair)na tela %>
+	
+	Usuario Logado: ${ usuarioLogado.login }
+	
+	<br>
+	<br>
+	<br>
 
 	<c:if test="${not empty empresa}">
 		Empresa ${ empresa } cadastrada com sucesso!

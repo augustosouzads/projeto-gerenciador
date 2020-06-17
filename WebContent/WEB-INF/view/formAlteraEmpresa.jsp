@@ -11,7 +11,10 @@
 <title>Insert title here</title>
 </head>
 <body>
-
+	
+	<c:import url="logout-parcial.jsp" /> <%//chamando a jsp"logout-parcial"para aparecer (sair)na tela %>
+	
+	
 	<form action="${linkEntradaServlet }" method="post">
 	
 		Nome: <input type="text" name="nome" value="${empresa.nome }" />
